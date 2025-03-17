@@ -20,6 +20,16 @@ nav li{
 
 }
 
+nav a{
+
+
+}
+
+nav a:hover{
+    color: #10ba65;
+    text-decoration: underline;
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
