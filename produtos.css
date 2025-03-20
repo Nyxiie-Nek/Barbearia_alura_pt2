@@ -1,21 +1,21 @@
 header {
-    background: #bbbbbb;
-    padding: 200px;
-}
-
-.caixa{
+    background:#bbbbbb;
+    padding: 20px 0;
+  }
+  
+  .caixa{
     position:relative;
     width: 940px;
-    margin: auto;
-}
-
-nav{
+    margin: 0 auto;
+  }
+  
+  nav{
     position: absolute;
     top: 110px;
-    right: o;
-}
-
-nav li {
+    right: 0;
+  }
+  
+  nav li {
     display: inline;
     margin: 0 0 0 15px;
   }
@@ -23,24 +23,23 @@ nav li {
   nav a {
     text-transform: uppercase;
     color: #000000;
-    font-weigth: bold;
+    font-weight: bold;
     font-size: 22px;
     text-decoration: none;
   }
-    
-
-nav a:hover{
-    color: #10ba65;
+  
+  nav a:hover{
+    color:#d3811d;
     text-decoration: underline;
-}
-
-.produtos{
+  }
+  
+  .produtos{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-}
-
-.produtos li{
+  }
+  
+  .produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -48,43 +47,44 @@ nav a:hover{
     margin: 0 1.5%;
     box-sizing: border-box;
     border: 2px solid black;
-    border-radius: 10px;
-}
-.produtos li:hover{
-    border-color: #10ba65;
-}
-
-.produtos li:active{
-    border-color: #00cee0;
-}
-
-.produtos li:hover h2{
+    border-radius: 45px;
+  }
+  /*add 18/03*/
+  .produtos li:hover{
+    border-color: red;
+  }
+  /*add 18/03*/
+  .produtos li:active{
+    border-color: green;
+  }
+  /*add 18/03*/
+  .produtos li:hover h2{
     font-size: 34px;
-}
-
-.produtos h2{
+  }
+  
+  .produtos h2{
     font-size: 30px;
     font-weight: bold;
-}
-
-.produto-descriçao{
+  }
+  
+  .produto-descricao{
     font-size: 18px;
-}
-
-.produto-preço{
+  }
+  
+  .produto-preco{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
-}
-
-footer{
+  }
+  /*add 18/03*/
+  footer{
     text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
-}
-
-.copyright{
-    color: #ffffff;
-    font-size: 20px;
+  }
+  /*add 18/03*/
+  .copyright{
+    color: white;
+    font-size: 22px;
     margin: 20px auto;
-}
+  }
