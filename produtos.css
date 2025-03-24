@@ -76,15 +76,15 @@ header {
     font-weight: bold;
     margin-top: 10px;
   }
-  /*add 18/03*/
+
   footer{
     text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
   }
-  /*add 18/03*/
+
   .copyright{
-    color: #bbbbbb;
+    color: #ffffff;
     font-size: 22px;
     margin: 20px auto;
   }
