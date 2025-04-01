@@ -1,8 +1,11 @@
 @import url(produtos.css);
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+body{
+	font-family: "roboto", sans-serif;
+}
+
+.banner{
+	width: 100%;
 }
 
 .titulo-principal {
@@ -45,4 +48,18 @@
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video {
+	width: 50px;
+	margin: 1em auto;
 }
